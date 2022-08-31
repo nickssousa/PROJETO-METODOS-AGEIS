@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário - MET.AGE.</title>
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>BOLSA DE VALORES</h1>
+    </header>
+
+    <section>
+        <form class="questionario">
+            <div>
+                <label for="qnome">Nome</label><br/>
+                <input type="text" name="qnome" id="qnome" placeholder="Digite o nome..."><br/><br/>
+            </div>
+
+            <div>
+                <label for="qcodigo">Código</label></br>
+                <input type="number" name="qcodigo" id="qnome" placeholder="Digite o código" value="codigo"><br/><br/>
+            </div>
+
+            <div>
+                <label for="qquanti">Quantidade</label><br/>
+                <input type="number" name="qquanti" id="qquanti" placeholder="Digite a quantidade.." value="quantidade"><br/><br/>
+            </div>
+
+            <div>
+                <label for="qvalunit">Valor Unitário</label><br/>
+                <input type="number" name="qvalunit" id="qvalunit" placeholder="Digite o valor unitário" value="valorunitario"><br/><br/>
+            </div>
+
+            <div>
+                <label for="qdata">Data</label><br/>
+                <input type="date" id="qdata" name="qdata"><br/><br/>
+            </div>
+
+            <div>
+                <label for="vendas">VENDA OU COMPRA?</label><br/><br/>
+                <span>
+                    <label for="qvenda">Venda</label>
+                    <input type="radio" id="qvenda" name="vendas">
+                
+            
+                    <label for="qcompra">Compra</label>
+                    <input type="radio" id="qcompra" name="vendas"><br/><br/>
+                </span>
+            </div>
+
+            <div>
+                <label for="qsalvar"></label>
+                <input type="submit" id="qsalvar" name="qsalvar" value="SALVAR">
+            </div>
+
+            <div>   
+                <label for="qlimpar"></label>
+                <input type="reset" id="qlimpar" name="qlimpar" value="LIMPAR">
+            </div>
+    
+        </form>
+    </section>
+
+
+    
+</body>
+
+</html>
